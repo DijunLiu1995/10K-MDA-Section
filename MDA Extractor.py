@@ -371,7 +371,7 @@ with open(download, 'r') as txtfile:
         
 ############# Remove Teble Sections #########################
 
-        output1=table_clean('<table','</table>',str1)
+        str1=table_clean('<table','</table>',str1)
         
 ############# Remove Newlines and Carriage Returns #########################
 
